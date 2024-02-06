@@ -1,0 +1,16 @@
+form {
+    margin-bottom: 15px;
+}
+
+body {
+    text-align: center;
+}
+
+.weather {
+    text-align: start;
+}
+
+.Forecast {
+    display: inline-block;
+    padding: 15px;
+}
