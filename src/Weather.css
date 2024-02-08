@@ -4,6 +4,16 @@ form {
 
 body {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container {
+    background-color: pink;
+    border-radius: 15px;
+    padding: 20px 30px;
+    display: block;
+    margin: 100px auto;
 }
 
 .weather {
@@ -13,4 +23,18 @@ body {
 .Forecast {
     display: inline-block;
     padding: 15px;
+}
+
+h1 {
+    margin: 0;
+    padding: 5px;
+}
+
+.cityName {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.tempMax {
+    margin-right: 10px;
 }

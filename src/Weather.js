@@ -54,12 +54,12 @@ export default function Weather() {
         </form>
         <div>
           <div className="weather">
-            <div>{weather.city}</div>
+            <div className="cityName">{weather.city}</div>
             <FormattedDate date={weather.sunrise} />
             <Sunrise sunrise={weather.sunrise} />
             <Sunset sunset={weather.sunset} />
             <img src="https://openweathermap.org/img/wn/{weather.icon}@2x.png" />
-            <div>{Math.round(weather.temperature)}℃</div>
+            <div>{Math.round(weather.temperature)}&deg;C</div>
             <div>Humidity: {weather.humidity}%</div>
             <div>Wind: {weather.wind}km/h</div>
           </div>
